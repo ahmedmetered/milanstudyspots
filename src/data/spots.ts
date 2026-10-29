@@ -12,6 +12,7 @@ export type Spot = {
   bestFor: string;
   insider: string;         // your voice — drafts below, edit freely
   photo: string;           // image path — you shoot these
+  photoCredit?: string;    // required when using someone else's photo
 };
 
 export const spots: Spot[] = [
@@ -24,7 +25,8 @@ export const spots: Spot[] = [
     hours: "Mon–Fri 8:30–18:15, Sat 8:30–13:30 (verify)",
     bestFor: "Deep, silent focus in one of Italy's most beautiful reading rooms",
     insider: "Pair it with a pre-study espresso in Brera before the tourist crowd arrives.",
-    photo: "/images/braidense.jpg",
+    photo: "/__l5e/assets-v1/0a1294a0-1a99-46e9-8279-3847a04233bf/braidense.jpg",
+    photoCredit: "Photo: Giovanni Dall'Orto / Wikimedia Commons",
   },
   {
     name: "Biblioteca Centrale di Architettura (PoliMi)",
@@ -46,7 +48,8 @@ export const spots: Spot[] = [
     hours: "Check current civic-library hours (they change seasonally)",
     bestFor: "Milan's main civic library — big reading rooms, reliable wifi",
     insider: "The reading rooms fill fast in the afternoons; mornings are calmest.",
-    photo: "/images/sormani.jpg",
+    photo: "/__l5e/assets-v1/c8948056-be92-4718-bde9-d5259c0e7165/sormani.jpg",
+    photoCredit: "Photo: Panoramio user / Wikimedia Commons, CC BY-SA 3.0",
   },
   {
     name: "Fondazione Feltrinelli",
@@ -57,7 +60,8 @@ export const spots: Spot[] = [
     hours: "Verify — varies with exhibition calendar",
     bestFor: "An inspiring research space designed by Herzog & de Meuron",
     insider: "The building alone is worth the trip; the reading spaces overlook the courtyard.",
-    photo: "/images/feltrinelli.jpg",
+    photo: "/__l5e/assets-v1/a5e08a22-6ab6-41f1-8148-d81e86c0d052/feltrinelli.jpg",
+    photoCredit: "Photo: 97Bina / Wikimedia Commons, CC BY-SA 4.0",
   },
   {
     name: "The Seed Milano",
