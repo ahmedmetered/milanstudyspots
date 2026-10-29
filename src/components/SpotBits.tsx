@@ -25,6 +25,11 @@ export function SpotPhoto({ spot, className = "" }: { spot: Spot; className?: st
           className="absolute inset-0 h-full w-full object-cover"
         />
       )}
+      {!failed && spot.photoCredit && (
+        <span className="absolute bottom-0 right-0 rounded-tl-md bg-background/80 px-2 py-0.5 text-[10px] text-muted-foreground">
+          {spot.photoCredit}
+        </span>
+      )}
       {failed && (
         <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center">
           <span className="eyebrow">Photo coming soon</span>
