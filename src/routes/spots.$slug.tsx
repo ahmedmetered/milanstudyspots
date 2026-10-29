@@ -19,6 +19,7 @@ export const Route = createFileRoute("/spots/$slug")({
         { property: "og:title", content: title },
         { property: "og:description", content: spot.bestFor },
         { property: "og:type", content: "article" },
+        { name: "twitter:card", content: "summary_large_image" },
       ],
     };
   },
