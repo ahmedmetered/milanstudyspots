@@ -10,6 +10,8 @@ export const Route = createFileRoute("/spots/")({
       { name: "description", content: "Filter Milan's best libraries, cafés and coworking spaces by neighborhood, quiet, outlets, coffee and more." },
       { property: "og:title", content: "All study spots — Milan Study Spots" },
       { property: "og:description", content: "Find a place to study in Milan by type, neighborhood and traits." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: SpotsIndex,

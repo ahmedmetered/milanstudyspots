@@ -7,6 +7,8 @@ export const Route = createFileRoute("/about")({
       { name: "description", content: "Curated by Ahmed, an MSc Mechanical Engineering student at Politecnico di Milano. Every spot visited personally, no sponsorships." },
       { property: "og:title", content: "About Milan Study Spots" },
       { property: "og:description", content: "One student, every spot visited in person, no sponsorships." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: About,

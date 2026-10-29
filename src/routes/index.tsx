@@ -9,6 +9,8 @@ export const Route = createFileRoute("/")({
       { name: "description", content: "Libraries, cafés and campus rooms in Milan, personally visited by a Politecnico student. No sponsored listings." },
       { property: "og:title", content: "Milan Study Spots" },
       { property: "og:description", content: "A curated, personally visited guide to the best places to study in Milan." },
+      { property: "og:type", content: "website" },
+      { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
   component: Index,
